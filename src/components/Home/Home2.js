@@ -1,60 +1,59 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.png";
 import Tilt from "react-parallax-tilt";
 
 function Home2() {
   return (
-    <Container fluid className="home-about-section" id="about">
-      <Container>
-        <Row>
-          <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-              I’m a Software Engineer who loves transforming ideas into
-              reliable, scalable products. Over time, I’ve explored several
-              technologies and found my passion in building high-performance
-              systems and intuitive user experiences.
-              <br />
-              <br />
-              I’m proficient in
-              <i>
-                <b className="purple">
-                  {" "}
-                  JavaScript, C++, Rust, Node.js, and Java{" "}
-                </b>
-              </i>
-              — and I enjoy working across both backend and frontend stacks.
-              <br />
-              <br />
-              My key areas of interest include developing
-              <i>
-                <b className="purple">
-                  {" "}
-                  Web Applications, Blockchain Solutions,{" "}
-                </b>
-              </i>
-              and exploring new ways to bridge on-chain and off-chain systems.
-              <br />
-              <br />
-              Whenever possible, I love building projects with
-              <b className="purple"> Node.js </b> and modern frameworks like{" "}
-              <i>
-                <b className="purple">React.js</b> and{" "}
-                <b className="purple">Next.js</b>.
-              </i>
-            </p>
-          </Col>
-          <Col md={4} className="myAvtar">
-            <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
-          </Col>
-        </Row>
+      <Container fluid className="home-about-section" id="about">
+        <Container>
+          <Row>
+            <Col md={8} className="home-about-description">
+              <h1 style={{ fontSize: "2.6em" }}>
+                <span className="purple"> Qui suis-je ?</span>
+              </h1>
+              <p className="home-about-body">
+                Je suis titulaire d’une Licence en Génie Logiciel et actuellement
+                en Master Sécurité des Systèmes Informatiques (SSI).
+                Passionnée par les technologies numériques, je conçois des
+                applications performantes tout en intégrant des principes solides
+                de sécurité et d’architecture logicielle.
+                <br />
+                <br />
+                Je travaille principalement avec
+                <i>
+                  <b className="purple">
+                    {" "}
+                    Laravel, Angular, Flutter, JavaFX, C# et MySQL
+                  </b>
+                </i>
+                , en développant des solutions web et mobiles robustes et sécurisées.
+                <br />
+                <br />
+                Mes domaines d’intérêt incluent le développement
+                <i>
+                  <b className="purple">
+                    {" "}
+                    d’applications web sécurisées, la gestion des bases de données,
+                    la conception d’architectures fiables et la cybersécurité
+                  </b>
+                </i>
+                .
+                <br />
+                <br />
+                Mon objectif est de créer des systèmes à la fois performants,
+                sécurisés et centrés sur l’expérience utilisateur.
+              </p>
+            </Col>
+            <Col md={4} className="myAvtar">
+              <Tilt>
+                <img src={myImg} className="img-fluid" alt="Soda DIOP - Avatar" />
+              </Tilt>
+            </Col>
+          </Row>
+        </Container>
       </Container>
-    </Container>
   );
 }
+
 export default Home2;

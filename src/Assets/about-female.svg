@@ -1,0 +1,36 @@
+<svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="aboutGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#8b5cf6;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#c084f5;stop-opacity:0.1" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#aboutGrad)"/>
+  <!-- Laptop -->
+  <rect x="120" y="220" width="160" height="100" rx="8" fill="#374151"/>
+  <rect x="130" y="230" width="140" height="75" rx="4" fill="#1e293b"/>
+  <line x1="140" y1="248" x2="260" y2="248" stroke="#64748b" stroke-width="1"/>
+  <line x1="140" y1="262" x2="250" y2="262" stroke="#64748b" stroke-width="1"/>
+  <line x1="140" y1="276" x2="220" y2="276" stroke="#64748b" stroke-width="1"/>
+  <rect x="140" y="150" width="120" height="8" fill="#4b5563"/>
+  <!-- Female figure with laptop -->
+  <ellipse cx="200" cy="95" rx="40" ry="45" fill="#f0e6d8"/>
+  <path d="M 160 145 Q 160 115 200 115 Q 240 115 240 145 L 240 320 L 160 320 Z" fill="#e8d5c4"/>
+  <!-- Hair -->
+  <path d="M 170 60 Q 155 65 152 90 Q 148 115 160 135 L 165 150 L 235 150 L 240 135 Q 252 115 248 90 Q 245 65 230 60" fill="#3d2914"/>
+  <!-- Glasses -->
+  <circle cx="188" cy="93" r="15" fill="none" stroke="#475569" stroke-width="1.5"/>
+  <circle cx="212" cy="93" r="15" fill="none" stroke="#475569" stroke-width="1.5"/>
+  <line x1="203" y1="93" x2="197" y2="93" stroke="#475569" stroke-width="1.5"/>
+  <!-- Eyes -->
+  <circle cx="188" cy="93" r="3" fill="#1e293b"/>
+  <circle cx="212" cy="93" r="3" fill="#1e293b"/>
+  <!-- Smile -->
+  <path d="M 178 108 Q 200 116 222 108" stroke="#4a3728" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  <!-- Arms -->
+  <path d="M 160 155 L 175 210 L 125 225 L 110 170 Z" fill="#e8d5c4"/>
+  <path d="M 240 155 L 225 210 L 275 225 L 290 170 Z" fill="#e8d5c4"/>
+  <!-- Floating code elements -->
+  <text x="50" y="100" fill="#c084f5" font-size="16" font-family="monospace" opacity="0.6">const</text>
+  <text x="300" y="180" fill="#c084f5" font-size="16" font-family="monospace" opacity="0.6">=&gt;</text>
+</svg>

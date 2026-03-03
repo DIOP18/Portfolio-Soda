@@ -443,6 +443,21 @@ button:focus {
   padding: 0 !important;
 }
 
+.footer-contact-list {
+  list-style: none;
+  padding: 0;
+  margin: 0.5em 0;
+}
+
+.footer-contact-list li {
+  margin-bottom: 0.4em;
+  font-size: 0.95em;
+}
+
+.footer-contact-list a:hover {
+  color: #e9d5ff !important;
+}
+
 .blockquote-footer {
   color: #a588c0 !important;
 }
