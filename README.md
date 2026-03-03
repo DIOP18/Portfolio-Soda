@@ -1,6 +1,7 @@
 <h2 align="center">
   Portfolio Soda DIOP<br/>
-  <a href="https://portfolio-soda-diop.vercel.app/" target="_blank">Portfolio</a>
+  <a href="https://github.com/DIOP18/Portfolio-Soda" target="_blank">GitHub</a> •
+  <a href="https://portfolio-soda.vercel.app/" target="_blank">Live</a>
 </h2>
 
 <br/>
