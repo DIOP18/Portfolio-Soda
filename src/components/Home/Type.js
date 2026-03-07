@@ -7,13 +7,15 @@ function Type() {
             options={{
                 strings: [
                     "Ingénieure Logicielle",
-                    "Étudiante en Master SSI",
-                    "Développeuse Full-Stack",
+                    "Développeuse Front-End",
+                    "Développeuse Back-End",
+                    "Développeuse Mobile",
                     "Passionnée de Cybersécurité",
                 ],
                 autoStart: true,
                 loop: true,
-                deleteSpeed: 50,
+                deleteSpeed: 40,
+                delay: 60,
             }}
         />
     );
