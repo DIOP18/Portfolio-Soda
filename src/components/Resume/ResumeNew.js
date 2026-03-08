@@ -342,7 +342,7 @@ function ResumeNew() {
             </div>
             <h1 className="rv-h1">Mon <span>CV Professionnel</span></h1>
             <p className="rv-sub">
-              Développeuse Full-Stack · Master SSI en cours<br />
+              Développeuse Full-Stack ·<br />
               Disponible pour de nouvelles opportunités
             </p>
 
