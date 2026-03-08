@@ -34,6 +34,7 @@ function Footer() {
         { to: "/about",   label: "À Propos" },
         { to: "/project", label: "Projets"  },
         { to: "/resume",  label: "CV"       },
+        {to: "/contact", label: "Contact"  },
     ];
 
     return (
@@ -234,7 +235,7 @@ function Footer() {
                     <div>
                         <div className="sd-ft-nav-title">// Navigation</div>
                         <ul className="sd-ft-nav-list">
-                            {navLinks.map(l => (
+                            {navLinks.map(l  => (
                                 <li key={l.to}><Link to={l.to}>{l.label}</Link></li>
                             ))}
                         </ul>

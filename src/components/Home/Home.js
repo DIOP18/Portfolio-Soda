@@ -373,7 +373,7 @@ function Home() {
               <div className="sd-greeting">
                 <div className="sd-greeting-line" />
                 <span className="sd-greeting-txt">
-                Bonjour&nbsp;<span className="sd-wave">👋</span>
+                Bonjour&nbsp;<span className="sd-wave"></span>
               </span>
               </div>
 
@@ -393,8 +393,8 @@ function Home() {
               </div>
 
               <div className="sd-cta">
-                <a href="#projects" className="sd-btn-main">Voir mes projets →</a>
-                <a href="#resume"   className="sd-btn-outline">↓ Télécharger CV</a>
+                <a href="project" className="sd-btn-main">Voir mes projets →</a>
+                <a href="resume"   className="sd-btn-outline">↓ Télécharger CV</a>
               </div>
             </div>
 
