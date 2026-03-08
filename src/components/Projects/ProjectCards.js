@@ -169,7 +169,7 @@ function ProjectCards(props) {
                 </div>
 
                 <div className="pc-body">
-                    {props.category && <div className="pc-category">// {props.category}</div>}
+                    {props.category && <div className="pc-category">{'// '}{props.category}</div>}
 
                     <div className="pc-title">
                         <span className="pc-title-text">{props.title}</span>

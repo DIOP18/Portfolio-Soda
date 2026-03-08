@@ -16,7 +16,7 @@
 
 ## À propos
 
-Portfolio personnel de **Soda DIOP** - Développeuse full-stack, diplômée en Licence Génie Logiciel et en Master Sécurité des Systèmes Informatiques (SSI).
+Portfolio personnel de **Soda DIOP** - Développeuse full-stack, diplômée en Licence Génie Logiciel.
 
 ## Technologies utilisées
 

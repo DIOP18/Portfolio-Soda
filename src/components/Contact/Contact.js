@@ -8,6 +8,20 @@ import { FiPhone, FiSend, FiLoader } from "react-icons/fi";
 import { FaLinkedinIn } from "react-icons/fa";
 import { BsGithub, BsGeoAlt } from "react-icons/bs";
 import { MdOutlineAccessTime } from "react-icons/md";
+
+/* ────────────────────────────────────────────────────────────
+   CONFIGURATION EMAILJS
+   1. Crée un compte sur https://www.emailjs.com (gratuit)
+   2. Add Email Service  →  copie le SERVICE_ID
+   3. Email Templates    →  crée un template, copie le TEMPLATE_ID
+      Variables à mettre dans le template :
+        {{from_name}}   — nom de l'expéditeur
+        {{from_email}}  — email de l'expéditeur
+        {{subject}}     — sujet
+        {{message}}     — message
+        {{to_name}}     — Soda DIOP  (valeur fixe dans le template)
+   4. Account > API Keys →  copie le PUBLIC_KEY
+   ──────────────────────────────────────────────────────────── */
 const EMAILJS_SERVICE_ID  = "service_nqimweg";
 const EMAILJS_TEMPLATE_ID = "template_bivwf14";
 const EMAILJS_PUBLIC_KEY  = "fsbfyb5sS4t0GX3ZC";
@@ -479,7 +493,7 @@ function Contact() {
                     {/* ── LEFT ── */}
                     <div className="ct-left">
                         <div className="ct-info-card">
-                            <div className="ct-info-title">// Mes coordonnées</div>
+                            <div className="ct-info-title">{"// Mes coordonnées"}</div>
                             <div className="ct-info-list">
                                 {contactInfo.map(c => {
                                     const Wrap = c.href ? "a" : "div";
@@ -512,7 +526,7 @@ function Contact() {
                         </div>
 
                         <div className="ct-social-card">
-                            <div className="ct-social-title">// Réseaux</div>
+                            <div className="ct-social-title">{"// Réseaux"}</div>
                             <div className="ct-socials">
                                 {socialLinks.map(s => (
                                     <a
@@ -558,7 +572,7 @@ function Contact() {
                             {status === "success" && (
                                 <div className="ct-overlay success">
                                     <div className="ct-overlay-icon"><AiOutlineCheckCircle /></div>
-                                    <div className="ct-overlay-title">Message envoyé ! </div>
+                                    <div className="ct-overlay-title">Message envoyé ! 🎉</div>
                                     <div className="ct-overlay-sub">
                                         Merci pour votre message.<br />
                                         Je vous réponds dans les 24h.
@@ -586,7 +600,7 @@ function Contact() {
 
                             <div className="ct-form-title">Envoyez-moi un message</div>
                             <div className="ct-form-subtitle">
-                                // Tous les champs marqués sont obligatoires
+                                {'// Tous les champs marqués sont obligatoires'}
                             </div>
 
                             <form ref={formRef} onSubmit={handleSubmit} noValidate>
@@ -598,7 +612,7 @@ function Contact() {
                                         <input
                                             name="from_name"
                                             className="ct-input"
-                                            placeholder="Mame Nogaye DIOP"
+                                            placeholder="Marie Dupont"
                                             value={form.from_name}
                                             onChange={handleChange}
                                             onFocus={() => setFocusedField("from_name")}
@@ -615,7 +629,7 @@ function Contact() {
                                             name="from_email"
                                             type="email"
                                             className="ct-input"
-                                            placeholder="mndiop@exemple.com"
+                                            placeholder="marie@exemple.com"
                                             value={form.from_email}
                                             onChange={handleChange}
                                             onFocus={() => setFocusedField("from_email")}
