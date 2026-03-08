@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Particle from "../Particle";
-import pdf from "../../Assets/DIOP SODA DIOP.pdf";
+import pdf from "../../Assets/Curriculum Vitae.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 import { BsEye, BsFileEarmarkPdf } from "react-icons/bs";
 import { HiOutlineAcademicCap } from "react-icons/hi";
