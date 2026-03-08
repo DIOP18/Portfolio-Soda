@@ -1,12 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
 import myImg from "../../Assets/avatar.png";
-
-/* ── Même palette que Home.jsx ────────────────────────────────
-   --p1 #c084fc  mauve clair
-   --p2 #818cf8  indigo
-   --p3 #67e8f9  bleu ciel
-   ─────────────────────────────────────────────────────────── */
-
 const skills = [
   { name: "Laravel",  color: "#e879f9" },  // mauve rosé
   { name: "Angular",  color: "#818cf8" },  // indigo
@@ -402,8 +395,8 @@ function Home2() {
                 </div>
 
                 <div className="h2-cta">
-                  <a href="#projects" className="h2-btn-main">Mes projets →</a>
-                  <a href="#contact"  className="h2-btn-outline">Me contacter</a>
+                  <a href="project" className="h2-btn-main">Mes projets</a>
+                  <a href="contact"  className="h2-btn-outline">Me contacter</a>
                 </div>
               </div>
 

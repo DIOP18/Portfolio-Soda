@@ -3,16 +3,12 @@ import homeLogo from "../../Assets/developer-illustration.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import { AiFillGithub, AiOutlineTwitter } from "react-icons/ai";
+import {AiFillGithub, AiOutlineDownload, AiOutlineTwitter} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import pdf from "../../Assets/Curriculum Vitae.pdf";
 
-/* ─── Palette tokens (mauve clair + bleu clair) ─────────────────────────────
-   --p1  : #c084fc  (mauve clair / violet pastel)
-   --p2  : #818cf8  (indigo doux)
-   --p3  : #67e8f9  (bleu ciel / cyan clair)
-   --bg  : #07080f  (fond très sombre, légèrement bleuté)
-   --bg2 : #0d0f1d  (fond cartes)
-   ─────────────────────────────────────────────────────────────────────────── */
+
+
 
 /* ── Canvas particules ─────────────────────────────────────── */
 function FloatingParticles() {
@@ -114,7 +110,6 @@ function Home() {
 
   const socials = [
     { href: "https://github.com/DIOP18?tab=repositories", icon: <AiFillGithub />, label: "GitHub",   color: "#c084fc" },
-    { href: "https://twitter.com/",                        icon: <AiOutlineTwitter />, label: "Twitter",  color: "#67e8f9" },
     { href: "https://www.linkedin.com/in/soda-diop-1a0235282/", icon: <FaLinkedinIn />,  label: "LinkedIn", color: "#818cf8" },
   ];
 
@@ -393,8 +388,10 @@ function Home() {
               </div>
 
               <div className="sd-cta">
-                <a href="project" className="sd-btn-main">Voir mes projets →</a>
-                <a href="resume"   className="sd-btn-outline">↓ Télécharger CV</a>
+                <a href="project" className="sd-btn-main">Voir mes projets</a>
+                <a href={pdf} target="_blank" rel="noreferrer" className="sd-btn-outline">
+                  <AiOutlineDownload /> Télécharger le CV
+                </a>
               </div>
             </div>
 

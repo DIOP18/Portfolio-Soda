@@ -144,13 +144,13 @@ const projects = [
     {
         id: 1,
         placeholder: <PlaceholderMedical />,
-        category: "Application Web • Santé",
+        category: "Application Web - Santé",
         title: "Plateforme de Rendez-vous Médicaux",
         description:
-            "Système de gestion de clinique couvrant le cycle complet patient→médecin→admin. " +
-            "3 rôles distincts avec permissions granulaires, 12 tables MySQL relationnelles, " +
-            "15+ endpoints REST sécurisés par JWT. Réduit la gestion manuelle des RDV de ~70% " +
-            "par rapport à un agenda papier. Validation côté serveur sur 100% des formulaires.",
+            "Système de gestion de clinique couvrant le cycle complet patient- médecin - assistant - admin. " +
+            "4 rôles distincts avec permissions granulaires, 12 tables MySQL relationnelles, " +
+            "15+ endpoints REST sécurisés par JWT. Réduit la gestion manuelle des RDV de -70% " +
+            "par rapport à un agenda papier ou automatisation excel. Validation côté serveur sur 100% des formulaires.",
         stack: [
             { name:"Laravel",  color:"#e879f9" },
             { name:"Angular",  color:"#818cf8" },
@@ -169,13 +169,13 @@ const projects = [
     {
         id: 2,
         placeholder: <PlaceholderTodo />,
-        category: "Application Web • Python",
+        category: "Application Web - Python",
         title: "Gestionnaire de Tâches (Flask)",
         description:
             "Application todo-list avancée construite avec Flask et SQLite. " +
             "Authentification bcrypt hashée, sessions sécurisées, 4 niveaux de priorité, " +
             "système de rappels par statut. Architecture MVC respectée, " +
-            "~800 lignes de code Python bien structuré. " +
+            "+800 lignes de code Python bien structuré. " +
             "Support multi-utilisateurs : chaque compte dispose d'un espace isolé.",
         stack: [
             { name:"Python",   color:"#facc15" },
@@ -195,7 +195,7 @@ const projects = [
     {
         id: 3,
         placeholder: <PlaceholderJava />,
-        category: "Application Desktop • Java",
+        category: "Application Desktop - Java",
         title: "Gestion des Émargements Professeurs",
         description:
             "Application desktop JavaFX pour la gestion académique d'un établissement. " +
@@ -221,7 +221,7 @@ const projects = [
     {
         id: 4,
         placeholder: <PlaceholderEcommerce />,
-        category: "Application Web • E-commerce",
+        category: "Application Web - E-commerce",
         title: "Système de Gestion des Commandes",
         description:
             "Plateforme e-commerce full-stack Laravel avec tunnel d'achat complet en 4 étapes. " +
@@ -249,7 +249,7 @@ const projects = [
 const filters = ["Tous", "Web", "Desktop", "Sécurité", "Python", "E-commerce"];
 
 const stats = [
-    { value:"4+",   label:"Projets réalisés"       },
+    { value:"20+",   label:"Projets réalisés"       },
     { value:"10+",  label:"Technologies utilisées"  },
     { value:"50+",  label:"Endpoints REST codés"    },
     { value:"100%", label:"Open source"             },

@@ -114,7 +114,7 @@ function AboutCard() {
       `}</style>
 
         <div className="ac-card">
-          <div className="ac-hi">// Bonjour, monde !</div>
+          <div className="ac-hi">// Bonjour </div>
 
           <p className="ac-body">
             Je suis <span className="ac-name">Soda DIOP</span>, diplômée d'une{" "}

@@ -16,13 +16,13 @@ const highlights = [
     icon: <HiOutlineAcademicCap />,
     color: "#c084fc",
     title: "Formation",
-    items: ["Licence Génie Logiciel — Mention Excellent", "Master SSI (en cours) — Sécurité des Systèmes Informatiques"],
+    items: ["Licence Génie Logiciel — Mention Excellent"],
   },
   {
     icon: <MdOutlineSecurity />,
     color: "#818cf8",
     title: "Spécialités",
-    items: ["Cybersécurité & Protection des données", "Architecture logicielle & APIs REST", "Développement Full-Stack sécurisé"],
+    items: ["Architecture logicielle & APIs REST", "Développement Full-Stack sécurisé"],
   },
   {
     icon: <MdOutlineWorkOutline />,
