@@ -5,7 +5,7 @@ import Home2 from "./Home2";
 import Type from "./Type";
 import {AiFillGithub, AiOutlineDownload, AiOutlineTwitter} from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
-import pdf from "../../Assets/Curriculum Vitae.pdf";
+import pdf from "../../Assets/DIOP SODA DIOP.pdf";
 
 
 
