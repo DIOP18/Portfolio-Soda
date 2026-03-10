@@ -119,7 +119,8 @@ function AboutCard() {
           <p className="ac-body">
             Je suis <span className="ac-name">Soda DIOP</span>, diplômée d'une{" "}
             <span className="ac-deg">Licence en Génie Logiciel</span>{" "}
-            <span className="ac-master"></span>.
+            <span>Actuellement </span>
+            <span className="ac-master">Etudiante en Master 1 Systémes de Sécurité Informatique</span>.
             <br /><br />
             Passionnée par le développement d'applications web et mobiles sécurisées,
             performantes et centrées sur l'utilisateur. Mon objectif : concevoir des
