@@ -3,7 +3,6 @@ import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   const interests = [
-    "La cybersécurité et la protection des données",
     "La conception d'architectures logicielles robustes",
     "L'apprentissage continu et l'innovation technologique",
   ];
@@ -118,9 +117,7 @@ function AboutCard() {
 
           <p className="ac-body">
             Je suis <span className="ac-name">Soda DIOP</span>, diplômée d'une{" "}
-            <span className="ac-deg">Licence en Génie Logiciel</span>{" "}
-            <span>Actuellement </span>
-            <span className="ac-master">Etudiante en Master 1 Systémes de Sécurité Informatique</span>.
+            <span className="ac-deg">Licence en Génie Logiciel. </span>{" "}
             <br /><br />
             Passionnée par le développement d'applications web et mobiles sécurisées,
             performantes et centrées sur l'utilisateur. Mon objectif : concevoir des

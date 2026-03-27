@@ -382,7 +382,7 @@ function Home() {
               </div>
 
               <div className="sd-tags">
-                {["Full-Stack Dev","Cybersécurité","Architecture","Laravel","Flutter","Angular","C#","MySQL"].map((t, i) => (
+                {["Full-Stack Dev","Architecture","Laravel","Flutter","Angular","C#","MySQL"].map((t, i) => (
                     <span key={t} className="sd-tag" style={{ animationDelay: `${.5 + i * .07}s` }}>{t}</span>
                 ))}
               </div>

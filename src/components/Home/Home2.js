@@ -16,9 +16,9 @@ const stats = [
 ];
 
 const domains = [
-  { icon: "🏗️", label: "Architecture logicielle" },
-  { icon: "📱", label: "Développement mobile (Flutter)" },
-  { icon: "🗄️", label: "Gestion de bases de données" },
+  {  label: "Architecture logicielle" },
+  {  label: "Développement mobile (Flutter)" },
+  {  label: "Gestion de bases de données" },
 ];
 
 /* ── Typewriter interne ────────────────────────────────────── */
