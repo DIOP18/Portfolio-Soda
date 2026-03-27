@@ -10,7 +10,6 @@ function Type() {
                     "Développeuse Front-End",
                     "Développeuse Back-End",
                     "Développeuse Mobile",
-                    "Passionnée de Cybersécurité",
                 ],
                 autoStart: true,
                 loop: true,

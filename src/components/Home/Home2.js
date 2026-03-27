@@ -16,7 +16,6 @@ const stats = [
 ];
 
 const domains = [
-  { icon: "🔐", label: "Cybersécurité & sécurité applicative" },
   { icon: "🏗️", label: "Architecture logicielle" },
   { icon: "📱", label: "Développement mobile (Flutter)" },
   { icon: "🗄️", label: "Gestion de bases de données" },
